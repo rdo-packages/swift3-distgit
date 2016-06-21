@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-f14456fa9dbcafd5c0249f9b6e17813e3e8bfaf6	openstack/swift3-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+6ccb383ffc5a27a0ab3bd159728c9504960a8a01       	openstack/swift3-distgit-core
+f14456fa9dbcafd5c0249f9b6e17813e3e8bfaf6        	openstack/swift3-distgit-ptl
+global:Registered-Users		Registered Users
