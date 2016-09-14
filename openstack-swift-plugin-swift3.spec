@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:		openstack-swift-plugin-swift3
-Version:	XXX
-Release:	XXX
+Version:	1.11
+Release:	1%{?dist}
 Summary:	The swift3 plugin for Openstack Swift
 
 License:	ASL 2.0
@@ -39,3 +39,6 @@ rm -rf %{buildroot}
 %doc AUTHORS README.md
 
 %changelog
+* Wed Sep 14 2016 Haïkel Guémar <hguemar@fedoraproject.org> - 1.11-1
+- Upstream 1.11
+
