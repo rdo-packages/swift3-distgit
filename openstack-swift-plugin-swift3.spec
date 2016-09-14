@@ -1,3 +1,4 @@
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:		openstack-swift-plugin-swift3
 Version:	XXX
 Release:	XXX
