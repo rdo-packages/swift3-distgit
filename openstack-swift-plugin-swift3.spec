@@ -1,3 +1,4 @@
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:		openstack-swift-plugin-swift3
 Version:	XXX
 Release:	XXX
@@ -5,7 +6,7 @@ Summary:	The swift3 plugin for Openstack Swift
 
 License:	ASL 2.0
 URL:		https://github.com/openstack/swift3
-Source0:	http://tarballs.openstack.org/swift3/swift3-%{version}.tar.gz
+Source0:	http://tarballs.openstack.org/swift3/swift3-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRequires:	python2-devel
