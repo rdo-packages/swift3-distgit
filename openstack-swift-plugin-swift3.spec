@@ -5,7 +5,7 @@ Summary:	The swift3 plugin for Openstack Swift
 
 License:	ASL 2.0
 URL:		https://github.com/openstack/swift3
-Source0:	http://tarballs.openstack.org/swift3/swift3-%{version}.tar.gz
+Source0:	https://tarballs.openstack.org/swift3/swift3-%{version}.tar.gz
 
 BuildArch:	noarch
 BuildRequires:	python2-devel
