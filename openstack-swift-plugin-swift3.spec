@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:		openstack-swift-plugin-swift3
-Version:	1.11
+Version:	1.11.0
 Release:	1%{?dist}
 Summary:	The swift3 plugin for Openstack Swift
 
@@ -39,6 +39,6 @@ rm -rf %{buildroot}
 %doc AUTHORS README.md
 
 %changelog
-* Wed Sep 14 2016 Haïkel Guémar <hguemar@fedoraproject.org> - 1.11-1
-- Upstream 1.11
+* Wed Sep 14 2016 Haïkel Guémar <hguemar@fedoraproject.org> - 1.11.0-1
+- Upstream 1.11.0
 
