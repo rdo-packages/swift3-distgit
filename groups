@@ -1,5 +1,9 @@
-# UUID                                  	Group Name
-#
-6ccb383ffc5a27a0ab3bd159728c9504960a8a01	openstack/swift3-distgit-core
-f14456fa9dbcafd5c0249f9b6e17813e3e8bfaf6	openstack/swift3-distgit-ptl
-global:Registered-Users                 	Registered Users
+# UUID Group Name
+global:Registered-Users	Registered Users
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+fc48dde5029d3ef9af95e8c504809b2eaca32a83	openstack/swift3-ptl
+global:Anonymous-Users	Anonymous Users
+05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+60d926169cab903152af0e522760f981967b7afd	openstack/swift3-core
