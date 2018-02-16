@@ -10,12 +10,13 @@ Source0:	https://tarballs.openstack.org/swift3/swift3-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRequires:	python2-devel
-BuildRequires:	python-pbr
-BuildRequires:	python-setuptools
+BuildRequires:	python2-pbr
+BuildRequires:	python2-setuptools
 
-Requires:	openstack-swift >= 2.1.0
+Requires:	openstack-swift >= 2.14.0
 Requires:   python-lxml
-Requires:   python-requests
+Requires:   python2-requests
+Requires:   python2-six >= 1.9.0
 
 %description
 The swift3 plugin permits accessing Openstack Swift via the
