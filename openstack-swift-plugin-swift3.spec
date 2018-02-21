@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:		openstack-swift-plugin-swift3
-Version:	XXX
-Release:	XXX
+Version:	1.12.0
+Release:	1%{?dist}
 Summary:	The swift3 plugin for Openstack Swift
 
 License:	ASL 2.0
@@ -40,3 +40,6 @@ rm -rf %{buildroot}
 %doc AUTHORS README.md
 
 %changelog
+* Wed Feb 21 2018 RDO <dev@lists.rdoproject.org> 1.12.0-1
+- Update to 1.12.0
+
